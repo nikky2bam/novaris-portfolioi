@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Projects — NOVARIS | Nic Omon</title>
+
+  <meta name="description" content="Explore web development practice projects and work in progress by Nic Omon at NOVARIS.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/base.css">
+</head>
+
+<body class="scanlines">
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo">
+        <span>{</span> NOVARIS <span>}</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="projects.html" class="active">projects</a>
+        <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="burger" id="burger" aria-label="Toggle navigation" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero" id="hero">
+    <div class="container">
+      <h1 class="reveal">
+        ls <span style="color: var(--accent);">projects/</span>
+      </h1>
+
+      <p class="reveal">// my learning journey and work in progress</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter Bar -->
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="javascript">JavaScript</button>
+        <button class="filter-btn" data-filter="ai">AI-assisted</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1: NOVARIS Portfolio -->
+        <div class="project-card reveal" data-category="frontend">
+
+          <div class="project-thumb">
+            <img src="assets/img/portfolio-1.jpg" alt="NOVARIS portfolio website preview" loading="lazy">
+
+            <div class="project-overlay">
+              <div class="code-snippet">
+                const portfolio = {<br>
+                &nbsp;&nbsp;brand: 'NOVARIS',<br>
+                &nbsp;&nbsp;status: 'in progress'<br>
+                };
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <h3>NOVARIS Portfolio</h3>
+
+            <p>
+              My personal portfolio website, built to present my web development
+              journey, skills, and future projects using a modern dark design.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>In Progress</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Project 2: Responsive Landing Page Concept -->
+        <div class="project-card reveal" data-category="frontend">
+
+          <div class="project-thumb">
+            <img src="assets/img/portfolio-2.jpg" alt="Responsive landing page practice preview" loading="lazy">
+
+            <div class="project-overlay">
+              <div class="code-snippet">
+                .landing-page {<br>
+                &nbsp;&nbsp;display: responsive;<br>
+                &nbsp;&nbsp;design: modern;<br>
+                }
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <h3>Responsive Landing Page</h3>
+
+            <p>
+              A practice concept for a clean and modern landing page,
+              focused on responsive layouts, visual design, and user experience.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Frontend</span>
+              <span>Practice Concept</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Project 3: JavaScript Task App Concept -->
+        <div class="project-card reveal" data-category="javascript">
+
+          <div class="project-thumb">
+            <img src="assets/img/portfolio-3.jpg" alt="JavaScript task app practice preview" loading="lazy">
+
+            <div class="project-overlay">
+              <div class="code-snippet">
+                function addTask(task) {<br>
+                &nbsp;&nbsp;// practice JavaScript<br>
+                &nbsp;&nbsp;return task;<br>
+                }
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <h3>Task Manager App</h3>
+
+            <p>
+              A practice project concept for a simple task manager,
+              exploring JavaScript interactions and basic application logic.
+            </p>
+
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Practice Concept</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Project 4: AI-assisted Website Concept -->
+        <div class="project-card reveal" data-category="ai">
+
+          <div class="project-thumb">
+            <img src="assets/img/portfolio-4.jpg" alt="AI-assisted website building practice preview" loading="lazy">
+
+            <div class="project-overlay">
+              <div class="code-snippet">
+                const website = await AI.build({<br>
+                &nbsp;&nbsp;goal: 'modern website',<br>
+                &nbsp;&nbsp;review: true<br>
+                });
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <h3>AI Website Building</h3>
+
+            <p>
+              An exploration of AI-powered website building tools
+              to support design ideas, development workflows,
+              and creating modern web experiences.
+            </p>
+
+            <div class="project-tags">
+              <span>AI Tools</span>
+              <span>Web Design</span>
+              <span>HTML</span>
+              <span>Exploration</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-socials">
+        <!-- Add your real social links here when ready -->
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; <span id="year"></span> NOVARIS. Built with curiosity and code.
+      </p>
+
+    </div>
+  </footer>
+
+  <a href="#hero" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
